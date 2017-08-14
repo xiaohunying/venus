@@ -1,0 +1,70 @@
+.card-deck {
+  display: flex;
+  flex-flow: row wrap;
+  margin-right: 2;
+  margin-left: 2;
+}
+
+.card {
+  display: flex;
+  flex: 1 0 0%;
+  flex-direction: column;
+  margin: 5px 10px;
+  border: .075rem solid grey;
+  position: relative; 
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: white;
+  background-clip: border-box;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 300px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 #667a53, 0 6px 20px 0 #667a53;
+}
+
+.card-body {
+  flex: 1 1 auto;
+}
+
+.card-title {
+  background-color: #F1F1F1;
+  padding: 0.5rem 0.8rem;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 150%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-title:div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200px;
+}
+
+.card-footer {
+  padding: 0.5rem 0.8rem;
+  background-color: #F1F1F1;
+  border-top: 5 solid red;
+  font-size: 85%;
+  border-radius: 0 0 5px 5px;
+}
+
+.card-address-label {
+  padding: 0.5rem 0.8rem;
+  font-size: 100%;
+}
+
+.card-address {
+  padding: 0.5rem 0.2rem;
+  font-size: 100%;
+}
+
+.card-note {
+  padding: 0.5rem 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  font-style: italic;
+}
